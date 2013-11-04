@@ -20,19 +20,21 @@ You can stikeout with tildas: `~~Stike me Out~~`
 Questions
 ------
 
-* Identify the advantages of Web Standards. **Stability, Accessability, Validation**
-* Understand the role of W3C in the development of web standards.
-* Know which group has maintained HTML since 2004 and coordinates the living standards for HTML5.
-* Know the difference between the Structural Layer, Presentation Layer, and Behavioral Layer in the development process.
-* According to current web standards, know the various layers in the development process and the associated standards (e.g. what layer is associated primarily with HTML, with CSS, and with JavaScript). 
+* Identify the advantages of Web Standards. **Accessability, Forward Compatibility, Simpler and Faster Development, Faster Download and Display**
+* Understand the role of W3C in the development of web standards. **Creates and oversees development of web technologies**
+* Know which group has maintained HTML since 2004 and coordinates the living standards for HTML5. **WHATWG**
+* Know the difference between the Structural Layer, Presentation Layer, and Behavioral Layer in the development process. **Structual: HTML;Presentation: CSS;Behavioral: JS and DOM;**
+* According to current web standards, know the various layers in the development process and the associated standards (e.g. what layer is associated primarily with HTML, with CSS, and with JavaScript). **See Previous**
 * Know the difference between the development philosophies of Graceful Degradation and Progressive Enhancement.
-* Know the definition of the term Fault Tolerance.
+  + **Progressive Enhancement** is a powerful methodology that allows Web developers to concentrate on building the best possible websites while balancing the issues inherent in those websites being accessed by multiple unknown user-agents. Progressive Enhancement (PE) is the principle of starting with a rock-solid foundation and then adding enhancements to it if you know certain visiting user-agents can handle the improved experience.
+	+ **Graceful Degradation** - The premise for graceful degradation is to first build for the latest and greatest, then add handlers for less capable devices. In other words, focus on the majority before catering to those outside the mainstream
+* Know the definition of the term Fault Tolerance. **fault-tolerant design is a design that enables a system to continue its intended operation, possibly at a reduced level, rather than failing completely, when some part of the system fails**
 * When approaching a project from a progressive enhancement perspective, know the core focus is the content (i.e. the nut) and everything builds upon the core.
-* Know the name of the design theory and practice of providing optimal viewing across a wide range of devices that is fluid, adaptive, reactive, and flexible.
+* Know the name of the design theory and practice of providing optimal viewing across a wide range of devices that is fluid, adaptive, reactive, and flexible. **Responsive**
 * Know the 3 ingredients of Responsive Design described by Ethan Marcotte.
-* Know the definition of HTML Semantics. 
-* Know the acronym for HTML.
-* Identify properly formatted closing tags (i.e. markup that adheres to correct HTML 5 standards).
+* Know the definition of HTML Semantics. **Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages rather than merely to define its presentation or look.**
+* Know the acronym for HTML. **How To Make Lunch**
+* Identify properly formatted closing tags (i.e. markup that adheres to correct HTML 5 standards). **To close a take simply put a semicolin at the end `<p>hello world;`**
 * Know the basic requirements of a Web Page.
 * Know the required elements in a document header.
 * Know the location of Meta Elements in an HTML document and various reasons for including meta elements in your design.
@@ -47,11 +49,11 @@ Questions
 * Know the difference between an Absolute and Relative Hyperlink.
 * Identify the parts of an HTML link, specifically a and href (e.g. `<a href=“index.html”>Home</a>`)
 * Identify the correct markup for linking:
-  + To an internal file
-  + To an external URL
-  + Within a Document
-  + To a clickable Email Link
-* Know why HTML5 placeholder links are used.
+  + To an internal file **`href='www.somewhere.com'`**
+  + To an external URL **`href='about.html'`**
+  + Within a Document **`href='img/phat.jpg'`**
+  + To a clickable Email Link **`href='mailto:capt@kirk.com'`**
+* Know why HTML5 placeholder links are used. **Used in development and means the developer intends to add a link soon that he may or may not have at the moment.**
 * Identify 3 common methods for creating placeholder links including:
   + `<a>Midterm</a>`
   + `<a href=“  ”>Midterm</a>`
@@ -113,9 +115,9 @@ Questions
 * Know the definition of color temperature and be able to identify “warm colors” and “cool colors.”
 * Know the 6 classic color schemes.
 * Be able to identify a website employing each of the following schemes:
-* Monochromatic
-* Analogous
-* Complementary
+  + Monochromatic
+  + Analogous
+  + Complementary
 * Identify steps for choosing the right font for your website.
 * Know the difference between embedded fonts (@font-face) and Web font services.
 * When using embedded fonts, use only free commercial-use fonts and always read the license agreement on the fonts you employ.
