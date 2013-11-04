@@ -1,7 +1,7 @@
 DW Front End Services
 ==========
 
-Flowchart can be found on [lucidchart](https://www.lucidchart.com)*
+Flowchart can be found on [lucidchart](https://www.lucidchart.com)
 
 Did you know lucid chart can even do wireframes? Yeah, i'd check it out. 
 
@@ -28,7 +28,7 @@ Questions
 * Know the difference between the development philosophies of Graceful Degradation and Progressive Enhancement.
   + **Progressive Enhancement** is a powerful methodology that allows Web developers to concentrate on building the best possible websites while balancing the issues inherent in those websites being accessed by multiple unknown user-agents. Progressive Enhancement (PE) is the principle of starting with a rock-solid foundation and then adding enhancements to it if you know certain visiting user-agents can handle the improved experience.
   - The premise for **graceful degradation** is to first build for the latest and greatest, then add handlers for less capable devices. In other words, focus on the majority before catering to those outside the mainstream
-* Know the definition of the term Fault Tolerance. **fault-tolerant design is a design that enables a system to continue its intended operation, possibly at a reduced level, rather than failing completely, when some part of the system fails**
+* Know the definition of the term Fault Tolerance. **Fault-tolerant design is a design that enables a system to continue its intended operation, possibly at a reduced level, rather than failing completely, when some part of the system fails**
 * When approaching a project from a progressive enhancement perspective, know the core focus is the content (i.e. the nut) and everything builds upon the core.
 * Know the name of the design theory and practice of providing optimal viewing across a wide range of devices that is fluid, adaptive, reactive, and flexible. **Responsive**
 * Know the 3 ingredients of Responsive Design described by Ethan Marcotte. 
@@ -38,13 +38,14 @@ Questions
 * Know the definition of HTML Semantics. **Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages rather than merely to define its presentation or look.**
 * Know the acronym for HTML. **How To Make Lunch**
 * Identify properly formatted closing tags (i.e. markup that adheres to correct HTML 5 standards). **To close a take simply put a semicolin at the end `<p>hello world;`**
-* Know the basic requirements of a Web Page. `<html></html>`
+* Know the basic requirements of a Web Page. **`<html></html>` OR DOES SHE MEAN BASED ON W3C STANDARDS??**
 * Know the required elements in a document header. **Based on her slides, i think just `<title></title>` is required**
 * Know the location of Meta Elements in an HTML document and various reasons for including meta elements in your design. **`<head></head>`**
-* Know the components of a typical element.
 
 Pretty EZ Questions
 ------
+
+* Know the components of a typical element.
 * Identify the standard HTML Element used in HTML5 documents.
 * Identify the standard Doctype used in HTML5 documents.
 * Identify the character encoding markup used in HTML5 documents.
@@ -67,7 +68,9 @@ Pretty EZ Questions
 * Know what the `<br>` and `<hr>` elements are used for in HTML.
 * Know what the div element is used for in web development.
 * Know the difference between id and class attributes.
-* Know the difference between block-level and inline elements.
+* Know the difference between block-level and inline elements. 
+	+ **A block-level element** is an element that creates large blocks of content like paragraphs or page divisions. They start new lines of text when you use them, and can contain other blocks as well as inline elements and text or data.
+	+ **An inline element** is an element that define text or data in the document like STRONG makes the enclosed text strongly emphasized and Q says the enclosed text is a quotation. They don't start new lines when you use them, and they generally only contain other inline tags and text or data. Or they include nothing at all, like the BR tag.
 * Know what each of the following tags is used for in HTML and be able to identify whether they are block-level or inline elements:
   + `<abbr>`
   + `<p>`
@@ -90,16 +93,16 @@ Pretty EZ Questions
 * Identify the HTML markup that links to an external style sheet.
 * Know which section in an HTML document must include the external style sheet link.
 * Identify and define the various items in a CSS Rule Set:
-  + Selector
-  + Declaration Block
-  + Declaration
-  + Property
-  + Value
+  + Selector `.class`
+  + Declaration Block `.class {...}`
+  + Declaration `font-weight: bold;`
+  + Property `font-weight`
+  + Value `bold`
 * Know in CSS code, multiple declarations are separated by a semi-colon.
 * Identify the correct markup used to insert a comment in a CSS document.
 * Know CSS rules are based on a document tree.  When reviewing a CSS Inheritance Document Tree:  be able to identify ancestors, descendants, parents, children, and siblings.
 * Know the “Cascade” (Rules of Precedence).
-* Know the various Selector Types.
+* Know the various Selector Types. **She answered her own question next**
 * Identify the following selector types:
   + Type (Element)	(example:  h1)
   + ID	(example:  #fun)
