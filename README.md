@@ -8,7 +8,19 @@ Did you know lucid chart can even do wireframes? Yeah, i'd check it out.
 Midterm Study Guide
 ========
 
-* Identify the advantages of Web Standards.
+Formating
+------
+
+We should put the answers in bold. You can bold any word of phrase like this: `** text **` or `__text__`
+**Bold Phrase Goes Here**
+
+You can stikeout with tildas: `~~Stike me Out~~`
+~~Three strikes you're out!~~
+
+Questions
+------
+
+* Identify the advantages of Web Standards. **Stability, Accessability, Validation**
 * Understand the role of W3C in the development of web standards.
 * Know which group has maintained HTML since 2004 and coordinates the living standards for HTML5.
 * Know the difference between the Structural Layer, Presentation Layer, and Behavioral Layer in the development process.
