@@ -28,12 +28,12 @@ Midterm Study Guide
 * Identify the standard HTML Element used in HTML5 documents.
 * Identify the standard Doctype used in HTML5 documents.
 * Identify the character encoding markup used in HTML5 documents.
-* Know what the <body>  </body> tags contain ☺.
+* Know what the `<body></body>` tags contain.
 * Know the definition of an attribute.
 * Identify and differentiate between an attribute name and attribute value.
 * Identify the correct markup used to insert a comment in an HTML document.
 * Know the difference between an Absolute and Relative Hyperlink.
-* Identify the parts of an HTML link, specifically a and href (e.g. <a href=“index.html”>Home</a>)
+* Identify the parts of an HTML link, specifically a and href (e.g. `<a href=“index.html”>Home</a>`)
 * Identify the correct markup for linking:
   + To an internal file
   + To an external URL
@@ -41,30 +41,30 @@ Midterm Study Guide
   + To a clickable Email Link
 * Know why HTML5 placeholder links are used.
 * Identify 3 common methods for creating placeholder links including:
-  + <a>Midterm</a>
-  + <a href=“  ”>Midterm</a>
-  + <a href=“#”>Midterm</a>
-* Know what the <br> and <hr> elements are used for in HTML.
+  + `<a>Midterm</a>`
+  + `<a href=“  ”>Midterm</a>`
+  + `<a href=“#”>Midterm</a>`
+* Know what the `<br>` and `<hr>` elements are used for in HTML.
 * Know what the div element is used for in web development.
 * Know the difference between id and class attributes.
 * Know the difference between block-level and inline elements.
 * Know what each of the following tags is used for in HTML and be able to identify whether they are block-level or inline elements:
-  + <abbr> 
-  + <p>
-  + <h1>…<h6>
-  + <div>
-  + <address>
-  + <ul> and <ol> and <dl>
-  + <blockquote>
-  + <cite>
-  + <em>
-  + <strong>
-  + <span>
+  + `<abbr>`
+  + `<p>`
+  + `<h1>…<h6>`
+  + `<div>`
+  + `<address>`
+  + `<ul>` and `<ol>` and `<dl>`
+  + `<blockquote>`
+  + `<cite>`
+  + `<em>`
+  + `<strong>`
+  + `<span>`
 * Know what content is commonly placed in each of the following HTML5 structural elements:
-  + <header>
-  + <hgroup>
-  + <footer>
-  + <nav>
+  + `<header>`
+  + `<hgroup>`
+  + `<footer>`
+  + `<nav>`
 * Know the three types of styles commonly used in web design and why each are employed.
 * Know that an External Style Sheet is a text document, separate from HTML pages.
 * Identify the HTML markup that links to an external style sheet.
