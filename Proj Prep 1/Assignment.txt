@@ -22,4 +22,4 @@
 			http://zurb.com/
 			http://www.timothywebdesign.net/
 2. Storyboard was submitted with this file as storyboard.pdf.
-3. Wireframe was submitted with this file as wireframe.gif.
+3. Wireframe was submitted with this file as rough-wireframe.pdf.
