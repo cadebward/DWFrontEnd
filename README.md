@@ -12,10 +12,9 @@ Formating
 ------
 
 We should put the answers in bold. You can bold any word of phrase like this: `** text **` or `__text__`
-**Bold Phrase Goes Here**
+**text**
 
-You can stikeout with tildas: `~~Stike me Out~~`
-~~Three strikes you're out!~~
+You can stikeout with tildas: `~~Stike me Out~~` ~~Stike me Out~~
 
 Questions
 ------

@@ -1,0 +1,20 @@
+1. What is the purpose of the website? 
+	To inform as many people as possible of our great web development services.
+
+2. What do you want the website to accomplish?
+	Frequent unique viewers who purchase our services. 
+
+3. Who is your target audience?
+	Age - Any age perhaps over 18 who is in need of a website.
+	Gender - Any gender
+	Really anyone who wants to purchase a new, high-tech website
+
+4. What opportunity or issue is your website addressing?
+	The opportunity for people to get a great deal on a new site for their company, organization, or whatever they need it for.
+
+5. What type of content might be included in your website?
+	We might have videos of testimonials, examples of pages we've already built, images of wireframes and pictures of us, the owners.
+
+6. List the URLs for at least two related or similar websites found on the Web.
+	http://zurb.com/
+	http://www.timothywebdesign.net/
