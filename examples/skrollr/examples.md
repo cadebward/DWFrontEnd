@@ -6,3 +6,4 @@ These are some examples of skrollr or skrollr-like functionality:
 * [folkelarm](http://www.folkelarm.no/eng/)
 * [variegated design](http://variegateddesign.com/) No shame in promoting my own site...
 * [hi_hu](http://mikeyhu.com/)
+* [oblique](http://www.semaphor-oblique.com/)
