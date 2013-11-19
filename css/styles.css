@@ -1,3 +1,16 @@
+/*  ===============================================================================
+							    EMs
+		
+		According to the nets, browser default is 16 px. So i set the body to 62.5%
+		which sets it to 10px. Since Ems are based on its parent, it should make life
+		easier because one Em is = to 10px. So you want a font of 18px? Then 1.8em
+		will do the job. Of couse, is cascades. So becareful with that. But its cool
+		because now you can scale your browser and it doesn't break anything. (Except
+		for that stupid nav bar, something is wrong with it.)
+
+    =============================================================================== */ 
+
+
 /* ------//-------------//------- 
       Cade made thses changes 
    ------//-------------//------- */
@@ -40,6 +53,11 @@ nav li {
 	left: 50%;
 	margin-left: -4.5em;
 	top: -4.5em;
+}
+
+.content-wrapper {
+	padding: 4em;
+	font-size: 1.8em;
 }
 
 @media (max-width: 30em) {
