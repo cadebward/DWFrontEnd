@@ -1,0 +1,22 @@
+/* ------//-------------//------- 
+      Cade made thses changes 
+   ------//-------------//------- */
+
+header {
+	background: #BBB;
+	height: 400px;
+}
+
+nav {
+	background: #EFEFEF;
+	height: 75px;
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+}
+
+/* ------//-------------//------- 
+  Cade stopped making changes here
+   ------//-------------//------- */
