@@ -2,19 +2,37 @@
       Cade made thses changes 
    ------//-------------//------- */
 
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+}
+
 header {
 	background: #BBB;
-	height: 400px;
+	height: 25em;
 }
 
 nav {
 	background: #EFEFEF;
-	height: 75px;
+	height: 5em;
 }
 
 nav li {
 	list-style-type: none;
 	float: left;
+	font-size: 2em;
+	padding: .5em 1em;
+}
+
+.circle {
+	height: 6em;
+	width: 6em;
+	border-radius: 3em;
+	background: #CDCDCD;
+	position: absolute;
+	left: 50%;
+	margin-left: -3em;
+	top: 22em;
 }
 
 /* ------//-------------//------- 
