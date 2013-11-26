@@ -23,6 +23,7 @@ body {
 header {
 	background: #BBB;
 	height: 40em;
+    z-index: -3;
 }
 
 nav {
@@ -79,3 +80,81 @@ nav li {
 /* ------//-------------//------- 
   Cade stopped making changes here
    ------//-------------//------- */
+
+/* Sean's contribution */
+
+.DW {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.D {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  width: 250px;
+  border-radius: 0 100% 100% 0;
+  z-index: 1;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F06060), to(#F3B562));
+  background: -webkit-linear-gradient(top, #F3B562, #F06060);
+  background: -moz-linear-gradient(top, #F3B562, #F06060);
+  background: -ms-linear-gradient(top, #F3B562, #F06060);
+  background: -o-linear-gradient(top, #F3B562, #F06060);
+}
+
+.D:after {
+  content: '';
+  z-index: 1;
+  background-color: #BBB;
+  height: 165px;
+  width: 110px;
+  display: block;
+  border-radius: 0 100%  100% 0;
+  top: 68px;
+  left: 68px;
+  position: absolute;
+}
+
+.W1 {
+  display: inline-block;
+	width: 70px;
+	height: 300px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background-color: #5C4B51;
+  margin-left: 60px;
+}
+
+.W2 {
+  display: inline-block;
+	width: 70px;
+	height: 150px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+	background: #5C4B51;
+  margin-left: 10px
+}
+
+.W3 {
+  display: inline-block;
+	width: 70px;
+	height: 150px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #8CBEB2;
+  margin-left: -18px
+}
+
+.W4 {
+  display: inline-block;
+	width: 70px;
+	height: 300px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+	background: #F06060;
+  margin-left: 10px;
+}
