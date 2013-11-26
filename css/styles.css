@@ -24,6 +24,7 @@ header {
 	background: #BBB;
 	height: 40em;
     z-index: -3;
+    overflow: hidden;
 }
 
 nav {
@@ -117,6 +118,7 @@ nav li {
 
 .W1 {
   display: inline-block;
+  position: relative;
 	width: 70px;
 	height: 300px;
 	-webkit-transform: skew(20deg);
@@ -128,6 +130,7 @@ nav li {
 
 .W2 {
   display: inline-block;
+  position: relative;
 	width: 70px;
 	height: 150px;
 	-webkit-transform: skew(-20deg);
@@ -139,6 +142,7 @@ nav li {
 
 .W3 {
   display: inline-block;
+  position: relative;
 	width: 70px;
 	height: 150px;
 	-webkit-transform: skew(20deg);
@@ -150,6 +154,7 @@ nav li {
 
 .W4 {
   display: inline-block;
+  position: relative;
 	width: 70px;
 	height: 300px;
 	-webkit-transform: skew(-20deg);
