@@ -19,6 +19,8 @@ p {
 
 /* end temp */
 
+
+
 .nav-active {
 	border-bottom: 4px solid #5C4B51;
 
@@ -187,3 +189,41 @@ nav li {
 	background: #F06060;
   margin-left: 10px;
 }
+
+
+/*
+================================
+Contact.html styles
+================================ */
+/*
+▁ ▂ ▄ ▅ ▆ ▇ █ Site Colors █ ▇ ▆ ▅ ▄ ▂ ▁
+
+    gray: #5C4B51;
+    blue-ish green: #8CBEB2;
+    tan: #F2EBBF;
+    orange: #F3B562;
+    red: #F06060;
+
+*/
+#form-wrapper{
+
+}
+
+#form-box {
+	background: #F2EBBF;
+	border-radius: 5px;
+	height: 60em;
+	width: 60em;
+	border: 2px solid #5C4B51;
+	margin: 5em auto;
+
+}
+
+
+
+
+
+
+
+
+
