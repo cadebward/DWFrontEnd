@@ -69,6 +69,7 @@ nav li {
 }
 
 .circle {
+    position: relative;
 	height: 9em;
 	width: 9em;
 	border-radius: 50%;
