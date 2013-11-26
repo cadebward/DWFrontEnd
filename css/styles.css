@@ -206,7 +206,8 @@ Contact.html styles
 
 */
 #form-wrapper{
-
+	padding: 0;
+	margin: 0;
 }
 
 #form-box {
@@ -225,7 +226,7 @@ Contact.html styles
 	margin-bottom: 1em;
 }
 
-input {
+input, textarea {
 	height: 30px;
 	border-radius: 5px;
 	box-shadow: none;
@@ -234,6 +235,7 @@ input {
 	padding: 10px;
 	color: #5C4B51;
 	font-size: 1.8em;
+	margin-bottom: 1.5em;
 }
 
 label {
@@ -241,6 +243,34 @@ label {
 	font-size: 2em;
 }
 
+label:hover {
+	cursor: hand;
+}
+
+textarea {
+	height: 7em;
+}
+
+button {
+	height: 2em;
+	width: 100%;
+	border-radius: 5px;
+	background: #F3B562;
+	border: none;
+	box-shadow: none;
+	font-size: 2em;
+	color: #5C4B51;
+	font-weight: bold;
+	-webkit-transition:color, background .2s ease-in;
+}
+
+button:hover {
+	background: #5C4B51;
+	color: #F3B562;
+	-webkit-transition:color, background .2s ease-in;
+}
+
+textarea, input, button { outline: none; }
 
 
 
