@@ -11,6 +11,12 @@
 
 */
 
+
+/* temp style █ ▇ ▆ ▅ ▄ ▂ ▁ */
+p {
+	margin-bottom: 15px;
+}
+
 a {
 	text-decoration: inherit;
 	color:#000;   
