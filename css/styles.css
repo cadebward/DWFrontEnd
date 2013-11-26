@@ -20,6 +20,9 @@ p {
 /* end temp */
 
 
+.spacer {
+	margin-top: 3em;
+}
 
 .nav-active {
 	border-bottom: 4px solid #5C4B51;
@@ -205,6 +208,10 @@ Contact.html styles
     red: #F06060;
 
 */
+body {
+	height: 1000px !important;
+}
+
 #form-wrapper{
 	padding: 0;
 	margin: 0;
