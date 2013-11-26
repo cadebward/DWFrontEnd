@@ -1,26 +1,28 @@
-/*  ===============================================================================
-							    EMs
-		
-		According to the nets, browser default is 16 px. So i set the body to 62.5%
-		which sets it to 10px. Since Ems are based on its parent, it should make life
-		easier because one Em is = to 10px. So you want a font of 18px? Then 1.8em
-		will do the job. Of couse, is cascades. So becareful with that. But its cool
-		because now you can scale your browser and it doesn't break anything. (Except
-		for that stupid nav bar, something is wrong with it.)
+/*
 
-    =============================================================================== */ 
+▁ ▂ ▄ ▅ ▆ ▇ █ Site Colors █ ▇ ▆ ▅ ▄ ▂ ▁
+----------------------------
 
-
-/* ------//-------------//------- 
-      Cade made thses changes 
-Sean did this {
     gray: #5C4B51;
-    blue: #8CBEB2;
+    blue-ish green: #8CBEB2;
     tan: #F2EBBF;
     orange: #F3B562;
     red: #F06060;
+
+*/
+
+a {
+	text-decoration: inherit;
+	color:#000;   
+   -webkit-transition:color .3s ease-in;  
 }
-   ------//-------------//------- */
+
+a:hover {
+	color: #8CBEB2;
+	-webkit-transition:color .3s ease-in; 
+}
+
+
 
 body {
 	font-family: 'Roboto', sans-serif;
