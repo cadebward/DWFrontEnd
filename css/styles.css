@@ -88,7 +88,7 @@ nav li {
 }
 
 .content-wrapper {
-	padding: 4em;
+	padding: 4em 0;
 	font-size: 1.8em;
 }
 
@@ -192,6 +192,10 @@ nav li {
 	     -o-transform: skew(-20deg);
 	background: #F06060;
   margin-left: 10px;
+}
+
+.hero-unit {
+    background-color: #8CBEB2;
 }
 
 
