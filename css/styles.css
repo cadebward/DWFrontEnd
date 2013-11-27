@@ -256,11 +256,12 @@ label:hover {
 	cursor: hand;
 }
 
-textarea {
+.textarea {
 	height: 7em;
+	padding-bottom: 6em;
 }
 
-button {
+.btn {
 	height: 2em;
 	width: 100%;
 	border-radius: 5px;
@@ -273,7 +274,7 @@ button {
 	-webkit-transition:color, background .2s ease-in;
 }
 
-button:hover {
+.btn:hover {
 	background: #5C4B51;
 	color: #fff;
 	-webkit-transition:color, background .2s ease-in;
