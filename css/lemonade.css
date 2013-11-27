@@ -10,7 +10,7 @@
 
 /* Set the width of the grid */
 .frame {
-  width: 100%;
+  width: 96em;
   margin: 0px auto
 }
 
@@ -48,6 +48,7 @@
 
 /* Landscape mobile & down */
 @media (max-width: 30em) {
+  .frame,
   .bit-1,
   .bit-2,
   .bit-3,
@@ -73,7 +74,7 @@
   .bit-12 {
     width: 50%
   }
-
+  .frame,
   .bit-1,
   .bit-2,
   .bit-3,
@@ -98,4 +99,7 @@
   .bit-12 {
     width: 50%
   }
+    .frame {
+        width: 90%;
+    }
 }
