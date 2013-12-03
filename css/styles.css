@@ -59,6 +59,40 @@ p {
 	background: #F06060; 
 }
 
+.btn-red {
+	background: #F06060;
+	border-radius: 6px;
+	padding: 10px;
+	border: none;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+
+.btn-red:hover {
+	background: #F3B562;
+}
+
+.btn-blue {
+	background: #8CBEB2;
+	border-radius: 6px;
+	padding: 10px;
+	border: none;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+
+.btn-blue:hover {
+	background: #5C4B51;
+}
+
+hr {
+	border: 1px solid white;
+}
+
 /* -------------------------
 		Lead
 */
