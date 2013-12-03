@@ -20,6 +20,34 @@ p {
 /* end temp */
 
 
+/* -------------------------
+		Stay Ahead 
+*/
+
+.stay-ahead div{
+	float: left;
+	margin-right: 1em;
+}
+
+.stay-ahead hr {
+	margin-bottom: 1em;
+}
+
+.stay-ahead h2 { 
+	padding: 4em 0 0 0;
+	text-transform: uppercase;
+}
+
+
+
+
+/* -------------------------*/
+
+#lead {
+	padding: 1em 3em 3em 3em;
+	text-align: center;
+}
+
 .spacer {
 	margin-top: 3em;
 }
