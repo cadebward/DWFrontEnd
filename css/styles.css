@@ -18,6 +18,57 @@ p {
 }
 
 /* end temp */
+.oline {
+    width: 100%;
+    border-bottom: solid 1em #F3B562;
+    z-index:9;
+    position:absolute;
+}
+
+.rline {
+    width: 100%;
+    border-bottom: solid 1em #F06060;
+    z-index:9;
+    position:absolute;
+}
+
+.bline {
+    width: 100%;
+    border-bottom: solid 1em #8CBEB2;
+    z-index:9;
+    position:absolute;
+}
+
+.gray {
+	background: #5C4B51;
+}
+
+.blue {
+	background: #8CBEB2;
+}
+
+.tan {
+	background: #F2EBBF;
+}
+
+.orange {
+	background: #F3B562;
+}
+
+.red {
+	background: #F06060; 
+}
+
+/* -------------------------
+		Lead
+*/
+
+#lead h1 {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 3em;
+}
 
 
 /* -------------------------
@@ -27,6 +78,7 @@ p {
 .stay-ahead div{
 	float: left;
 	margin-right: 1em;
+	margin-bottom: 4em;
 }
 
 .stay-ahead hr {
@@ -36,9 +88,38 @@ p {
 .stay-ahead h2 { 
 	padding: 4em 0 0 0;
 	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 700;
 }
 
+.clear {
+	clear: both;
+}
 
+/* -------------------------*/
+
+/* -------------------------
+		We gots yo back
+*/
+
+.got-back div{
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 4em;
+}
+
+.got-back hr {
+	margin-bottom: 1em;
+}
+
+.got-back h2 { 
+	padding: 4em 0 0 0;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 700;
+}
 
 
 /* -------------------------*/
@@ -48,7 +129,7 @@ p {
 	text-align: center;
 }
 
-.spacer {
+.spacer, .space {
 	margin-top: 3em;
 }
 
@@ -103,12 +184,7 @@ nav li {
 	padding: .5em 5em;
 }
 
-.oline {
-    width: 100%;
-    border-bottom: solid 1em #F3B562;
-    z-index:9;
-    position:absolute;
-}
+
 
 .circleh {
 	position: absolute;
