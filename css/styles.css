@@ -127,6 +127,12 @@ hr {
 	font-weight: 700;
 }
 
+.robot img{
+	height: 20em; 
+	width: 20em; 
+	margin-right: 2em;
+}
+
 .clear {
 	clear: both;
 }
@@ -153,6 +159,13 @@ hr {
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	font-weight: 700;
+}
+
+.rocket img{
+	height: 20em; 
+	width: 20em; 
+	border-radius: 50%; 
+	padding-left: 3em;
 }
 
 
