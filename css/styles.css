@@ -20,7 +20,7 @@ p {
 /* end temp */
 .oline {
     width: 100%;
-    border-bottom: solid 1em #F3B562;
+    border-bottom: solid 1em #101010;
     z-index:9;
     position:absolute;
 }
@@ -57,6 +57,10 @@ p {
 
 .red {
 	background: #F06060; 
+}
+
+.lightgray {
+    background: #EEE;
 }
 
 .btn-red {
@@ -100,8 +104,15 @@ hr {
 #lead h1 {
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
-	font-weight: 700;
-	font-size: 3em;
+	font-weight: 400;
+	font-size: 3.5em;
+    line-height: 1.5em;
+}
+
+#lead h1 span {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1em;
 }
 
 
@@ -111,8 +122,7 @@ hr {
 
 .stay-ahead div{
 	float: left;
-	margin-right: 1em;
-	margin-bottom: 4em;
+	margin-bottom: 2em;
 }
 
 .stay-ahead hr {
@@ -139,7 +149,6 @@ hr {
 
 .got-back div{
 	float: right;
-	margin-left: 1em;
 	margin-bottom: 4em;
 }
 
@@ -192,7 +201,7 @@ body {
 }
 
 header {
-	background: #BBB;
+	background: #CCC;
 	height: 40em;
     z-index: -3;
     overflow: hidden;
@@ -313,7 +322,7 @@ nav li {
 .D:after {
   content: '';
   z-index: 1;
-  background-color: #BBB;
+  background-color: #CCC;
   height: 165px;
   width: 110px;
   display: block;
@@ -373,6 +382,71 @@ nav li {
 
 .hero-unit {
     background-color: #8CBEB2;
+}
+
+footer {
+    overflow: hidden;
+    position: relative;
+    z-index:-2;
+}
+
+.DWalign {
+    width: 700px;
+    margin: 0 auto;
+}
+
+footer .DW {
+    z-index:1;
+    position: absolute;
+    margin: 8em 0;
+}
+
+footer .D {
+    background: rgba(154,50,50,1);
+}
+
+footer .D:after {
+    background: #F06060;
+}
+
+footer .W1 {
+    background: rgba(154,50,50,1);
+}
+
+footer .W2 {
+    background: rgba(154,50,50,1);
+}
+
+footer .W3 {
+    background: rgba(154,50,50,1);
+}
+
+footer .W4 {
+    background: rgba(154,50,50,1);
+}
+
+.level-foot {
+    z-index: 3;
+    position: relative;
+}
+
+.foot1 {
+    font-weight:100;
+    font-size: 3em;
+}
+
+.reg {
+    font-weight:400;
+    color: #EEE;
+}
+
+.circle-foot {
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    background-color: #EEE;
+    margin: 3em auto;
+    margin-bottom: 14em;
 }
 
 
