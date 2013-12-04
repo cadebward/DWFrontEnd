@@ -137,6 +137,12 @@ hr {
 	font-weight: 700;
 }
 
+.robot img{
+	height: 20em; 
+	width: 20em; 
+	margin-right: 2em;
+}
+
 .clear {
 	clear: both;
 }
@@ -164,9 +170,32 @@ hr {
 	font-weight: 700;
 }
 
+.rocket img{
+	height: 20em; 
+	width: 20em; 
+	border-radius: 50%; 
+	padding-left: 3em;
+}
+
 
 /* -------------------------*/
 
+
+/* -------------------------
+			Footer
+			*/
+
+footer li {
+	float: left;
+	list-style-type: none;
+	padding-left: 8em;
+}
+
+footer a {
+	color: #F3B562;
+}
+
+/* ------------------------ */
 #lead {
 	padding: 1em 3em 3em 3em;
 	text-align: center;
