@@ -158,6 +158,22 @@ hr {
 
 /* -------------------------*/
 
+
+/* -------------------------
+			Footer
+			*/
+
+footer li {
+	float: left;
+	list-style-type: none;
+	padding-left: 8em;
+}
+
+footer a {
+	color: #F3B562;
+}
+
+/* ------------------------ */
 #lead {
 	padding: 1em 3em 3em 3em;
 	text-align: center;
