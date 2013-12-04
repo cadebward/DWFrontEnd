@@ -1,7 +1,6 @@
-/*
+/***********************************************************\
+COLORS
 
-▁ ▂ ▄ ▅ ▆ ▇ █ Site Colors █ ▇ ▆ ▅ ▄ ▂ ▁
-----------------------------
 
     gray: #5C4B51;              rgb(92,75,81);
     blue-ish green: #8CBEB2;    rgb(140,190,178);
@@ -12,12 +11,9 @@
 */
 
 
-/* temp style █ ▇ ▆ ▅ ▄ ▂ ▁ */
-p {
-	margin-bottom: 15px;
-}
+/******************************
+COLOR PRESETS                 */
 
-/* end temp */
 .oline {
     width: 100%;
     border-bottom: solid 1em #101010;
@@ -93,13 +89,35 @@ p {
 	background: #5C4B51;
 }
 
+
+/*****************************
+General Styles               */
+
+p {
+	margin-bottom: 15px;
+}
+
 hr {
 	border: 1px solid white;
 }
 
-/* -------------------------
-		Lead
-*/
+.spacer, .space {
+	margin-top: 3em;
+}
+
+.content-wrapper {
+	padding: 4em 0;
+	font-size: 1.8em;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 62.5%;
+    color: #333;
+}
+
+/*************************
+		Lead                 */
 
 #lead h1 {
 	font-family: 'Playfair Display', serif;
@@ -115,10 +133,14 @@ hr {
     line-height: 1.1em;
 }
 
+#lead {
+	padding: 1em 3em 3em 3em;
+	text-align: center;
+}
 
-/* -------------------------
-		Stay Ahead 
-*/
+
+/***********************
+		Stay Ahead         */
 
 .stay-ahead div{
 	float: left;
@@ -147,11 +169,9 @@ hr {
 	clear: both;
 }
 
-/* -------------------------*/
 
-/* -------------------------
-		We gots yo back
-*/
+/*******************************
+		We've got your back        */
 
 .got-back div{
 	float: right;
@@ -178,63 +198,8 @@ hr {
 }
 
 
-/* -------------------------*/
-
-
-/* -------------------------
-			Footer
-			*/
-
-footer li {
-	float: left;
-	list-style-type: none;
-	padding-left: 8em;
-}
-
-footer a {
-	color: #F3B562;
-}
-
-/* ------------------------ */
-#lead {
-	padding: 1em 3em 3em 3em;
-	text-align: center;
-}
-
-.spacer, .space {
-	margin-top: 3em;
-}
-
-.nav-active {
-	border-bottom: 4px solid #5C4B51;
-
-}
-
-a {
-	text-decoration: inherit;
-	color:#000;   
-   -webkit-transition:color .3s ease-in;  
-}
-
-a:hover {
-	color: #8CBEB2;
-	-webkit-transition:color .3s ease-in; 
-}
-
-
-
-body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 62.5%;
-    color: #333;
-}
-
-header {
-	background: #CCC;
-	height: 40em;
-    z-index: -3;
-    overflow: hidden;
-}
+/***********************
+Navigation             */
 
 nav {
 	background: #EFEFEF;
@@ -256,78 +221,32 @@ nav li {
 	padding: .5em 5em;
 }
 
-
-
-.circleh {
-	position: absolute;
-    left: 50%;
-	margin-left: -4.5em;
-    z-index:150;
-	background: #8CBEB2;
-    height: 9em;
-	width: 9em;
-    border-radius: 50%;
-	top: -4.5em;
-}
-
-.circle {
-	border-radius: 50%;
-    border: dotted 0.2em #5C4B51;
-    text-align: center;
-    height: 8em;
-    width: 8em;
-    margin: 0.5em;
-    display: block;
-    z-index:999;
-    position:absolute;
-}
-
-.circle:hover {
-    transform:rotate(360deg);
-    -ms-transform:rotate(360deg);
-    -webkit-transform:rotate(360deg);
-    transition: all 15s linear;
-}
-
-.logo {
-    z-index:91;
-    position: absolute;
-    color:#333;
-    text-align:center;
-    width: 3em;
-    margin-top:0.8em;
-    font-weight:700;
-    text-shadow: 1px 1px 1px #9cd8ca;
-    font-size:3em;
-    display:inline-block;
-}
-
-.content-wrapper {
-	padding: 4em 0;
-	font-size: 1.8em;
-}
-
-@media (max-width: 30em) {
-  
-}
-
-/* Portrait tablet to landscape */
-@media (min-width: 30em) and (max-width: 50em) {
-  .circle {
-  	background: red;
-  }
-}
-
-/* Landscape to small desktop */
-@media (min-width: 50em) and (max-width: 68.750em) {
+.nav-active {
+	border-bottom: 4px solid #5C4B51;
 
 }
 
-/* ------//-------------//------- 
-  Cade stopped making changes here
-   ------//-------------//------- */
+a {
+	text-decoration: inherit;
+	color:#000;   
+   -webkit-transition:color .3s ease-in;  
+}
 
-/* Sean's contribution */
+a:hover {
+	color: #8CBEB2;
+	-webkit-transition:color .3s ease-in; 
+}
+
+
+/***********************
+Header                 */
+
+header {
+	background: #CCC;
+	height: 40em;
+    z-index: -3;
+    overflow: hidden;
+}
 
 .DW {
   width: 700px;
@@ -413,6 +332,74 @@ nav li {
     background-color: #8CBEB2;
 }
 
+.circleh {
+	position: absolute;
+    left: 50%;
+	margin-left: -4.5em;
+    z-index:150;
+	background: #8CBEB2;
+    height: 9em;
+	width: 9em;
+    border-radius: 50%;
+	top: -4.5em;
+}
+
+.circle {
+	border-radius: 50%;
+    border: dotted 0.2em #5C4B51;
+    text-align: center;
+    height: 8em;
+    width: 8em;
+    margin: 0.5em;
+    display: block;
+    z-index:999;
+    position:absolute;
+}
+
+.circle:hover {
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transition: all 15s linear;
+}
+
+.logo {
+    z-index:91;
+    position: absolute;
+    color:#333;
+    text-align:center;
+    width: 3em;
+    margin-top:0.8em;
+    font-weight:700;
+    text-shadow: 1px 1px 1px #9cd8ca;
+    font-size:3em;
+    display:inline-block;
+}
+
+
+/**********************
+Media Queries         */
+
+@media (max-width: 30em) {
+  
+}
+
+/* Portrait tablet to landscape */
+@media (min-width: 30em) and (max-width: 50em) {
+  .circle {
+  	background: red;
+  }
+}
+
+/* Landscape to small desktop */
+@media (min-width: 50em) and (max-width: 68.750em) {
+
+}
+
+
+/*********************
+Footer               */
+
 footer {
     overflow: hidden;
     position: relative;
@@ -483,16 +470,7 @@ footer .W4 {
 ================================
 Contact.html styles
 ================================ */
-/*
-▁ ▂ ▄ ▅ ▆ ▇ █ Site Colors █ ▇ ▆ ▅ ▄ ▂ ▁
 
-    gray: #5C4B51;
-    blue-ish green: #8CBEB2;  #749E94 darker color for box shadow
-    tan: #F2EBBF;
-    orange: #F3B562;
-    red: #F06060;
-
-*/
 body {
 	height: 1000px !important;
 }
