@@ -635,5 +635,21 @@ textarea, input, button { outline: none; }
     background: #F3B562;   
 }
 
+/*
+================================
+About.html styles
+================================ */
 
+.sean-pic {
+	height: 20em; 
+	width: 20em; 
+	border-radius: 50%; 
+	background-image: url('../img/sean.jpg');	
+}
+
+.sean-pic:hover {
+	background-image: url('../img/catgif11.gif');	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
