@@ -365,15 +365,20 @@ header {
 
 .logo {
     z-index:91;
-    position: absolute;
+    position: inherit;
     color:#333;
     text-align:center;
     width: 3em;
-    margin-top:0.8em;
+    margin:0.9em auto;
+    margin-left: 0.4em;
     font-weight:700;
     text-shadow: 1px 1px 1px #9cd8ca;
     font-size:3em;
     display:inline-block;
+}
+
+img.logo {
+    width: 2.1em;
 }
 
 
@@ -563,7 +568,7 @@ textarea, input, button { outline: none; }
 }
 
 .contact {
-    background: #F06060;
+    background: #F3B562;
 }
 
 .about {
