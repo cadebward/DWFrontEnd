@@ -89,6 +89,21 @@ COLOR PRESETS                 */
 	background: #5C4B51;
 }
 
+/*****************************
+Search Bar                   */
+
+.search {
+	position: absolute;
+	width: 200px;
+	left: 1200px;
+	top: 10px;
+}
+
+.search input {
+	border-radius: 20px;
+	font-size: 12px;
+}
+
 
 /*****************************
 General Styles               */
