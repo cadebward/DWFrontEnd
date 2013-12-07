@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="css/icons.css">
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -16,7 +18,7 @@
       <div class="search">
         <form method='GET' action="http://www.google.com/search">
         <input type="hidden" name=sitesearch value="ourside.com"><!-- adds to search `side:ourside.com` -->
-        <input Type='search' name='q' placeholder="Search DW Front End">
+        <a href="#" class="icon-search"></a><input Type='search' name='q' placeholder="Search DW Front End" id="search">
         </form>
       </div>
       <div class="spacer"></div>
@@ -123,7 +125,7 @@
               <span class="foot1">Connect <span class="reg">us</span></span>
               <div class="circle-foot">
                   <a href="http://twitter.com/seanevd" class="seant" title="Sean"></a>
-                  <a href="http://twitter.com/cadebward" class="cadet" title-"Cade"></a>
+                  <a href="http://twitter.com/cadebward" class="cadet" title="Cade"></a>
                   <span class="icon-twitter footsocial"></span></div>
               <div class="space"></div>
             </div>
@@ -132,7 +134,7 @@
               <span class="foot1">Collaborate <span class="reg">us</span></span>
               <div href="#" class="circle-foot">
                   <a href="http://github.com/seanevd" class="seant" title="Sean"></a>
-                  <a href="http://github.com/cadew" class="cadet" title-"Cade"></a>
+                  <a href="http://github.com/cadew" class="cadet" title="Cade"></a>
                   <span class="icon-github footsocial"></span>
               </div>
               <div class="space"></div>
@@ -149,5 +151,27 @@
       smoothScrolling: true
     });
   </script>
+  <script>
+      $(document).ready(function() {
+          $( "a.icon-search" ).click(function() {
+              $( "#search" ).show( "blind", 400 );
+              $( "a.icon-search" ).hide();
+          });
+        });
+    </script>
+    <script type="text/javascript">
+        
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-39221653-1']);
+        _gaq.push(['_trackPageview']);
+        
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        
+    </script>
+  
 </body>
 </html>

@@ -94,16 +94,27 @@ Search Bar                   */
 
 .search {
 	position: absolute;
-	width: 200px;
-	left: 1200px;
-	top: 10px;
+	width: 20em;
+	top: 3em;
+    right: 4em;
 }
 
 .search input {
 	border-radius: 20px;
 	font-size: 12px;
+    position: absolute;
+    display: none;
 }
 
+.search .icon-search {
+    font-size: 3em;
+    float: right;
+    color: #999;
+}
+
+.search .icon-search:hover {
+    color: #8CBEB2;
+}
 
 /*****************************
 General Styles               */
@@ -401,14 +412,19 @@ img.logo {
 Media Queries         */
 
 @media (max-width: 30em) {
-  
+
 }
 
 /* Portrait tablet to landscape */
 @media (min-width: 30em) and (max-width: 50em) {
-  .circle {
-  	background: red;
-  }
+    nav li {
+        padding: .5em 2em;
+    }
+    nav ul {
+        position: absolute;
+        left: 50%;
+        margin-left: -20em;
+    }
 }
 
 /* Landscape to small desktop */
@@ -660,11 +676,13 @@ About.html styles
 	width: 20em; 
 	border-radius: 50%; 
 	background-image: url('../img/sean.jpg');	
+    background-size: cover;
 }
 
 .sean-pic:hover {
 	background-image: url('../img/catgif11.gif');	
 	background-repeat: no-repeat;
 	background-size: cover;
+    background-position: -0.2em 0;
 }
 

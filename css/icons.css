@@ -26,9 +26,6 @@
 .icon-code:before {
 	content: "\e600";
 }
-.icon-leaf:before {
-	content: "\e601";
-}
 .icon-lifebuoy:before {
 	content: "\e603";
 }
@@ -37,9 +34,6 @@
 }
 .icon-suitcase:before {
 	content: "\e607";
-}
-.icon-eye:before {
-	content: "\e609";
 }
 .icon-github:before {
 	content: "\e60b";
@@ -52,4 +46,7 @@
 }
 .icon-rocket:before {
 	content: "\e60a";
+}
+.icon-search:before {
+	content: "\e604";
 }
