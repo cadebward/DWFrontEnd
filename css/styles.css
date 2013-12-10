@@ -252,15 +252,25 @@ nav li {
 
 }
 
-a {
+a:link {
 	text-decoration: inherit;
 	color:#000;   
-   -webkit-transition:color .3s ease-in;  
+   -webkit-transition:color .3s ease-in; 
+}
+
+a:visited {
+	color: #333;   
+   -webkit-transition:color .3s ease-in; 
 }
 
 a:hover {
 	color: #8CBEB2;
 	-webkit-transition:color .3s ease-in; 
+}
+
+a:active {
+	color: #4c6a63;
+	-webkit-transition:color .1s ease-in; 
 }
 
 
@@ -559,6 +569,11 @@ a.circle-foot:hover {
 	transition: all .3s linear;
 }
 
+.copy {
+    text-align: center;
+    color: #EEE;
+}
+
 
 /*
 ================================
@@ -609,7 +624,7 @@ label {
 }
 
 label:hover {
-	cursor: hand;
+	cursor: pointer;
 }
 
 .textarea {
@@ -686,3 +701,17 @@ About.html styles
     background-position: -0.2em 0;
 }
 
+.cade-pic {
+	height: 20em; 
+	width: 20em; 
+	border-radius: 50%; 
+	background-image: url('../img/cadeGH.jpeg');	
+    background-size: cover;
+}
+
+.cade-pic:hover {
+	background-image: url('../img/catgif12.gif');	
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: -0.2em 0;
+}
